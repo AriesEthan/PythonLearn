@@ -1,4 +1,4 @@
-!#/usr/local/bin/python3
+
 import platform
 import requests
 print(platform.platform())
