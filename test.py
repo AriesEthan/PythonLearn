@@ -1,4 +1,7 @@
+
+import platform
 import requests
+print(platform.platform())
 
 """response = requests.get("https://www.zhihu.com")
 print(type(response))
@@ -14,7 +17,7 @@ print(response.text)
 """
 import requests
 import json
-response = requests.get("http://httpbin.org/get")
+response = requests.get("https://httpbin.org/get")
 print(type(response.text))
 print(response.json())
 print(json.loads(response.text))
